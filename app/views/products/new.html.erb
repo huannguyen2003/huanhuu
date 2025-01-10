@@ -1,0 +1,11 @@
+<div class="new-product">
+  <h1 class="form-title">New Product</h1>
+
+  <div class="form-container">
+    <%= render "form", product: @product %>
+  </div>
+
+  <div class="form-actions">
+    <%= link_to "Cancel", products_path, class: "button cancel-button" %>
+  </div>
+</div>
